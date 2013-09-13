@@ -7,7 +7,7 @@ object $name;format="Camel"$Build extends Build {
     id = "$name;format="Camel"$",
     base = file("."),
     settings = Project.defaultSettings ++ Common.lwjglSettings ++ Seq(
-      name := "$description$",
+      name := "$name$",
       organization := "$package$",
       version := "0.1-SNAPSHOT",
       scalaVersion := "2.10.2",
