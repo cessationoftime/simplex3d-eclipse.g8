@@ -1,14 +1,14 @@
 import sbt._
 import sbt.Keys._
 
-object SimplexTestBuild extends Build {
+object $name;format="Camel"$Build extends Build {
 
-  lazy val simplexTest = Project(
-    id = "SimplexTest",
+  lazy val $name;format="camel"$ = Project(
+    id = "$name;format="Camel"$",
     base = file("."),
     settings = Project.defaultSettings ++ Common.lwjglSettings ++ Seq(
-      name := "Simplex3D test project",
-      organization := "org.example",
+      name := "$description$",
+      organization := "$package$",
       version := "0.1-SNAPSHOT",
       scalaVersion := "2.10.2",
       resolvers += "Typesafe Releases" at "http://repo.typesafe.com/typesafe/releases",
